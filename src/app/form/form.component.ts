@@ -8,8 +8,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 })
 export class FormComponent implements OnInit {
   formGroup:FormGroup;
-  constructor(public formBulid:FormBuilder) { 
-    
+  constructor(public formBulid:FormBuilder) {  
   }
   ngOnInit() {
     this.formGroup =this.formBulid.group({firstName:[' '],
