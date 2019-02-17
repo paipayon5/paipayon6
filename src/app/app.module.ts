@@ -15,6 +15,8 @@ imports:[BrowserModule,FormsModule,ReactiveFormsModule];
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
     AppRoutingModule
   ],
   providers: [],

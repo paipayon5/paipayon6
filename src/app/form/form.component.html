@@ -1,3 +1,16 @@
-<p>
-  form works!
-</p>
+<form [formGroup]="formGroup" (ngSubmit)="onSubmit(formGroup)">
+    <div>
+      <input type="text"formControlName="firstName"placeholder="first name">
+    </div>
+    <div>
+        <input type="text"formControlName="lastName"placeholder="last name">
+    </div>
+    <div>
+        <input type="text"formControlName="Email"placeholder="Email">
+    </div>
+    <div>
+        <input type="number"formControlName="AGE"placeholder="Age">
+    </div>
+    
+    <button>submit</button>
+  </form>
